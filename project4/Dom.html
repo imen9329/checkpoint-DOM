@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap");
+        </style>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        />
+
+        <link
+            rel="stylesheet"
+            href="C:\Users\Poste\Desktop\checkpoint DOM\project4\style1.css"
+        />
+        <link
+            rel="icon"
+            href="C:\Users\Poste\Desktop\checkpoint DOM\sweet-1319971786143432492.png"
+            type="image/x-icon"
+        />
+        <title>Imen's SweetShop</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navi">
+                    <div class="logo">
+                        <img
+                            src="C:\Users\Poste\Desktop\checkpoint DOM\logo.jpg"
+                            width="200px"
+                            height="100px"
+                            style="border-radius: 20px"
+                        />
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img
+                        src="C:\Users\Poste\Desktop\checkpoint DOM\cartlogo.png"
+                        width="70px"
+                        height="70px"
+                        style="border-radius: 50px"
+                    />
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col_1" id="item_1">
+                        <img
+                            src="C:\Users\Poste\Desktop\checkpoint DOM\choco1.jpg"
+                        />
+                        <h2>
+                            Milka oreo blanc :
+                            <span id="item_1_price">5 </span> TND
+                        </h2>
+                        <button
+                            type="button"
+                            class="btn btn-primary minus"
+                            name="item_1"
+                        >
+                            -
+                        </button>
+                        <h2 id="item_1_qty">0</h2>
+                        <button
+                            type="button"
+                            class="btn btn-primary plus"
+                            name="item_1"
+                        >
+                            +
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-danger delete"
+                            name="item_1"
+                        >
+                            delete
+                        </button>
+                        <i
+                            class="fas fa-heart"
+                            style="font-size: 34px"
+                            name="item_1"
+                            id="item_1_like"
+                        ></i>
+                    </div>
+                    <div class="col_1" id="item_2">
+                        <img
+                            src="C:\Users\Poste\Desktop\checkpoint DOM\choco9.jpg"
+                        />
+                        <h2>
+                            Raffaello 15pieces :
+                            <span id="item_2_price">25 </span> TND
+                        </h2>
+                        <button
+                            type="button"
+                            class="btn btn-primary minus"
+                            name="item_2"
+                        >
+                            -
+                        </button>
+                        <h2 id="item_2_qty">0</h2>
+                        <button
+                            type="button"
+                            class="btn btn-primary plus"
+                            name="item_2"
+                        >
+                            +
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-danger delete"
+                            name="item_2"
+                        >
+                            delete
+                        </button>
+                        <i
+                            class="fas fa-heart"
+                            style="font-size: 34px"
+                            name="item_2"
+                            id="item_2_like"
+                        ></i>
+                    </div>
+                    <div class="col_1" id="item_3">
+                        <img
+                            src="C:\Users\Poste\Desktop\checkpoint DOM\choco6.jpg"
+                        />
+                        <h2>
+                            Ferrero Rocher 24pieces :
+                            <span id="item_3_price">35 </span> TND
+                        </h2>
+                        <button
+                            type="button"
+                            class="btn btn-primary minus"
+                            name="item_3"
+                        >
+                            -
+                        </button>
+                        <h2 id="item_3_qty">0</h2>
+                        <button
+                            type="button"
+                            class="btn btn-primary plus"
+                            name="item_3"
+                        >
+                            +
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-danger delete"
+                            name="item_3"
+                        >
+                            delete
+                        </button>
+                        <i
+                            class="fas fa-heart"
+                            style="font-size: 34px"
+                            name="item_3"
+                            id="item_3_like"
+                        ></i>
+                    </div>
+                    <div class="total_price">
+                        <h1>Total : <span id="total">0</span> TND</h1>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="C:\Users\Poste\Desktop\checkpoint DOM\project4\cart.js"></script>
+    </body>
+</html>
